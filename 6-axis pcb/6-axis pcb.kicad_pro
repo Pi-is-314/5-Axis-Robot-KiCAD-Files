@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -535,8 +532,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -680,7 +677,7 @@
         "uuid": "3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
       }
     ],
-    "used_designators": "#PWR1-48,A1-8,ENCODER1I2C1,ENCODER2I2C1,ENCODER3I2C1,ENCODER4I2C1,ENCODER5I2C1,ENCODER6I2C1-2,Encoder1PWR1,Encoder2PWR1,Encoder3PWR1,Encoder4PWR1,Encoder5PWR1,Encoder6PWR1,J1-18,MK1,MainPoweRails1,U1-2",
+    "used_designators": "#PWR1-48,A1-8,ENCODER1I2C1,ENCODER5I2C1,Encoder6PWR1,ENCODER6I2C1-2,ENCODER3I2C1,Encoder1PWR1,Encoder3PWR1,ENCODER4I2C1,ENCODER2I2C1,Encoder2PWR1,Encoder4PWR1,U1-2,MK1,J1-18,Encoder5PWR1,MainPoweRails1",
     "variants": []
   },
   "sheets": [

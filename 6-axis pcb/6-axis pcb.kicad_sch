@@ -4119,7 +4119,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 251.46) (xy 85.09 251.46)
+			(xy 71.12 251.46) (xy 87.63 251.46)
 		)
 		(stroke
 			(width 0)
@@ -4179,7 +4179,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 248.92) (xy 85.09 248.92)
+			(xy 71.12 248.92) (xy 87.63 248.92)
 		)
 		(stroke
 			(width 0)
@@ -6160,7 +6160,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 90.17 248.92 0)
+		(at 92.71 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6170,7 +6170,7 @@
 		(dnp no)
 		(uuid "161aa601-6463-4d2c-bd50-f93d4165172e")
 		(property "Reference" "ENCODER5I2C1"
-			(at 92.71 248.9199 0)
+			(at 95.25 248.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6181,7 +6181,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 92.71 251.4599 90)
+			(at 95.25 251.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6192,7 +6192,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 90.17 248.92 0)
+			(at 92.71 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6203,7 +6203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 248.92 0)
+			(at 92.71 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6214,7 +6214,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 248.92 0)
+			(at 92.71 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
