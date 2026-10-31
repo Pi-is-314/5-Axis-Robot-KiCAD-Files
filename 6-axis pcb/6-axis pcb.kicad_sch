@@ -721,24 +721,8 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "N"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
+			)
+			(symbol "EEUFK1V102S_1_0"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.54)
@@ -749,7 +733,25 @@
 							)
 						)
 					)
-					(number "P"
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1229,6 +1231,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Driver_Motor:Pololu_Breakout_A4988"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1611,6 +1801,1390 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EEUFK1V102S_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EEUFK1V102S"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EEUFK1V102S:CAPPRD750W80D1600H1500"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_max" "0.85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_nom" "0.8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "A_max" "15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EEU-FK1V102S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "D_nom" "16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "e_nom" "7.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EEUFK1V102S_1_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EEUFK1V102S_1_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EEUFK1V102S_3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EEUFK1V102S"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EEUFK1V102S:CAPPRD750W80D1600H1500"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_max" "0.85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_nom" "0.8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "A_max" "15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EEU-FK1V102S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "D_nom" "16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "e_nom" "7.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EEUFK1V102S_3_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EEUFK1V102S_3_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EEUFK1V102S_4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EEUFK1V102S"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EEUFK1V102S:CAPPRD750W80D1600H1500"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_max" "0.85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_nom" "0.8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "A_max" "15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EEU-FK1V102S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "D_nom" "16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "e_nom" "7.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EEUFK1V102S_4_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EEUFK1V102S_4_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EEUFK1V102S_5"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EEUFK1V102S"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EEUFK1V102S:CAPPRD750W80D1600H1500"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - Radial Leaded"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_max" "0.85"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "RADIAL-2 Panasonic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "b_nom" "0.8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEU-FK1V102S/Panasonic/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "20-DEC-19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "A_max" "15"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EEU-FK1V102S"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "D_nom" "16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "e_nom" "7.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EEUFK1V102S_5_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EEUFK1V102S_5_1_0"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3573,16 +5147,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NO\n"
-		(exclude_from_sim no)
-		(at 122.936 38.608 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b8e5f18f-c0a3-4ea5-aadb-6c23190d94f3")
-	)
 	(junction
 		(at 49.53 152.4)
 		(diameter 0)
@@ -3684,6 +5248,10 @@
 	(no_connect
 		(at 72.39 139.7)
 		(uuid "5680a138-67f3-41bd-b0ac-3619df6585c5")
+	)
+	(no_connect
+		(at 260.35 113.03)
+		(uuid "5b8f9523-e28e-44ed-be6e-978d0a2c2b24")
 	)
 	(no_connect
 		(at 257.81 52.07)
@@ -3841,16 +5409,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 39.37) (xy 128.27 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10674b32-1f56-49b7-9a1c-dd4b7734f039")
-	)
-	(wire
-		(pts
 			(xy 257.81 57.15) (xy 251.46 57.15)
 		)
 		(stroke
@@ -3911,16 +5469,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 67.31) (xy 34.29 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "184414e9-22da-4093-a679-101a1c4145fd")
-	)
-	(wire
-		(pts
 			(xy 72.39 194.31) (xy 88.9 194.31)
 		)
 		(stroke
@@ -3971,7 +5519,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 35.56) (xy 237.49 35.56)
+			(xy 226.06 35.56) (xy 237.49 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3998,6 +5546,26 @@
 			(type default)
 		)
 		(uuid "1ee72b03-4fc8-4af0-876a-f062b2277ae6")
+	)
+	(wire
+		(pts
+			(xy 27.94 39.37) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef1a2af-b534-4b27-a500-2f4725cc6477")
+	)
+	(wire
+		(pts
+			(xy 24.13 67.31) (xy 34.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0c9ce8-bcc1-47a6-bc2a-28daf21114ae")
 	)
 	(wire
 		(pts
@@ -4141,6 +5709,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 46.99) (xy 81.28 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d29c0de-ba04-46d4-af83-143e9b8f3509")
+	)
+	(wire
+		(pts
 			(xy 346.71 49.53) (xy 356.87 49.53)
 		)
 		(stroke
@@ -4148,6 +5726,16 @@
 			(type default)
 		)
 		(uuid "2e12b74b-6855-45e0-809f-3c37b2aa5d6e")
+	)
+	(wire
+		(pts
+			(xy 27.94 46.99) (xy 34.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecdac2d-a86b-4ddd-b963-f7cf987056a1")
 	)
 	(wire
 		(pts
@@ -4261,16 +5849,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 49.53) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b362d2-33d5-4ae2-addf-a1910585c1a5")
-	)
-	(wire
-		(pts
 			(xy 33.02 162.56) (xy 49.53 162.56)
 		)
 		(stroke
@@ -4278,16 +5856,6 @@
 			(type default)
 		)
 		(uuid "387a1725-977a-468c-9990-0ae6f840512b")
-	)
-	(wire
-		(pts
-			(xy 27.94 52.07) (xy 34.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39bcc3c6-bba5-48d9-b1ae-84d31873cff5")
 	)
 	(wire
 		(pts
@@ -4368,6 +5936,16 @@
 			(type default)
 		)
 		(uuid "4fe7bbd3-e678-47f7-80da-99340f636db6")
+	)
+	(wire
+		(pts
+			(xy 27.94 52.07) (xy 34.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a4c3d2-a961-409f-b4d3-96871ab3621f")
 	)
 	(wire
 		(pts
@@ -4501,6 +6079,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 66.04) (xy 13.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678510a4-1792-41ed-9257-6a5431f84740")
+	)
+	(wire
+		(pts
 			(xy 273.05 74.93) (xy 273.05 76.2)
 		)
 		(stroke
@@ -4521,13 +6109,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 44.45) (xy 74.93 44.45)
+			(xy 74.93 41.91) (xy 81.28 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c4d11a6-4750-4d99-a232-69f62cbd5f1d")
+		(uuid "6e82c00b-2d8d-400f-96f4-477e44375206")
 	)
 	(wire
 		(pts
@@ -4671,16 +6259,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 41.91) (xy 34.29 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f4ff1f4-0c18-4795-8752-eb60807b1946")
-	)
-	(wire
-		(pts
 			(xy 341.63 25.4) (xy 345.44 25.4)
 		)
 		(stroke
@@ -4701,6 +6279,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 40.64) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8240b3e9-2d84-4289-befb-72b4a351ca20")
+	)
+	(wire
+		(pts
 			(xy 285.75 115.57) (xy 285.75 118.11)
 		)
 		(stroke
@@ -4708,16 +6296,6 @@
 			(type default)
 		)
 		(uuid "8640dd91-7a24-48eb-b23c-183f5e21f1dc")
-	)
-	(wire
-		(pts
-			(xy 27.94 39.37) (xy 34.29 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87709663-6c29-458c-bf3b-a008b47112b1")
 	)
 	(wire
 		(pts
@@ -4961,16 +6539,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 45.72) (xy 128.27 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0f2131a-d8da-4eac-9efe-2b5ec8e44f28")
-	)
-	(wire
-		(pts
 			(xy 72.39 180.34) (xy 88.9 180.34)
 		)
 		(stroke
@@ -5091,6 +6659,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 43.18) (xy 118.11 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1eb9cd7-ae5e-4585-8f7f-faf1465d12cb")
+	)
+	(wire
+		(pts
 			(xy 325.12 134.62) (xy 325.12 135.89)
 		)
 		(stroke
@@ -5118,26 +6696,6 @@
 			(type default)
 		)
 		(uuid "bec55f3d-520e-4899-869d-7860be788f3a")
-	)
-	(wire
-		(pts
-			(xy 119.38 43.18) (xy 128.27 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf244730-7a21-410a-b5ee-127fdbcc4a0d")
-	)
-	(wire
-		(pts
-			(xy 119.38 36.83) (xy 128.27 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfa64a8a-6690-463b-83aa-4939ef932c7c")
 	)
 	(wire
 		(pts
@@ -5231,6 +6789,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 44.45) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceea1a3b-e412-4fa2-bb3b-9aee4b9bf011")
+	)
+	(wire
+		(pts
 			(xy 383.54 109.22) (xy 388.62 109.22)
 		)
 		(stroke
@@ -5321,7 +6889,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 27.94) (xy 118.11 27.94)
+			(xy 105.41 27.94) (xy 118.11 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5461,6 +7029,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 41.91) (xy 34.29 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5a68ce-50fe-4f68-8629-59e19c1c5e0e")
+	)
+	(wire
+		(pts
 			(xy 379.73 50.8) (xy 384.81 50.8)
 		)
 		(stroke
@@ -5511,16 +7089,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 41.91) (xy 74.93 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14c52f9-aa47-4ded-b009-c6a99fc0e8dc")
-	)
-	(wire
-		(pts
 			(xy 26.67 247.65) (xy 33.02 247.65)
 		)
 		(stroke
@@ -5528,16 +7096,6 @@
 			(type default)
 		)
 		(uuid "f1beb45e-1cb7-4cc2-93dd-1d8ac1c0b398")
-	)
-	(wire
-		(pts
-			(xy 81.28 46.99) (xy 74.93 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23fec70-5ba0-4571-90bd-a0654b490a2b")
 	)
 	(wire
 		(pts
@@ -5558,6 +7116,16 @@
 			(type default)
 		)
 		(uuid "f920c446-cf81-4162-a9c8-b63e8df842d9")
+	)
+	(wire
+		(pts
+			(xy 13.97 67.31) (xy 16.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92b4bcc-a9ab-4104-95e9-eeed0a572580")
 	)
 	(wire
 		(pts
@@ -5591,13 +7159,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 46.99) (xy 34.29 46.99)
+			(xy 74.93 49.53) (xy 81.28 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc6c9d21-cf22-4a02-b83f-87c67d29e693")
+		(uuid "fcc6d19b-48da-4907-9e00-32bc02587cc2")
 	)
 	(wire
 		(pts
@@ -5629,7 +7197,17 @@
 		)
 		(uuid "fe8c22f9-160e-4ac2-a37f-4141351bce36")
 	)
-	(label "SD3"
+	(label "Common"
+		(at 109.22 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "076620bf-1580-48d5-b4ad-1c842e32a4a5")
+	)
+	(label "SC3"
 		(at 73.66 234.95 0)
 		(effects
 			(font
@@ -5659,7 +7237,7 @@
 		)
 		(uuid "1ab9c49d-b69e-4186-8477-5f674746fd11")
 	)
-	(label "GPIO22"
+	(label "GPIO21"
 		(at 349.25 52.07 0)
 		(effects
 			(font
@@ -5670,7 +7248,7 @@
 		(uuid "1af8163a-15cc-4948-952d-5432428bd3a7")
 	)
 	(label "GPIO22"
-		(at 81.28 46.99 0)
+		(at 74.93 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5680,7 +7258,7 @@
 		(uuid "1edad7f8-013c-47a9-8a66-41983805d8dd")
 	)
 	(label "GPIO1"
-		(at 27.94 52.07 0)
+		(at 29.21 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5689,7 +7267,7 @@
 		)
 		(uuid "23099910-9a62-4a72-b23f-0f1a194077f3")
 	)
-	(label "SD2"
+	(label "SC2"
 		(at 76.2 214.63 0)
 		(effects
 			(font
@@ -5699,7 +7277,7 @@
 		)
 		(uuid "23a682ef-ddfb-4fdb-8f9c-38e6f4f9f118")
 	)
-	(label "SC3"
+	(label "SD3"
 		(at 73.66 232.41 0)
 		(effects
 			(font
@@ -5710,7 +7288,7 @@
 		(uuid "25c947f2-298b-42a1-8950-87aaddab3633")
 	)
 	(label "GPIO15"
-		(at 81.28 41.91 0)
+		(at 74.93 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5769,16 +7347,6 @@
 		)
 		(uuid "4872b683-0f4c-4991-82a8-2fb509b4ae4c")
 	)
-	(label "LED+"
-		(at 119.38 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4902ac10-cf48-4ab1-9ee2-06ee01b6d231")
-	)
 	(label "SD1"
 		(at 81.28 194.31 0)
 		(effects
@@ -5790,7 +7358,7 @@
 		(uuid "4e4703f7-4e5e-43e2-8eba-9f0aeb562d67")
 	)
 	(label "GPIO21"
-		(at 81.28 49.53 0)
+		(at 74.93 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5810,7 +7378,7 @@
 		(uuid "573b5fd3-cfda-4ddd-a3e5-5747f4c61733")
 	)
 	(label "GPIO4"
-		(at 27.94 39.37 0)
+		(at 29.21 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5828,6 +7396,16 @@
 			(justify left bottom)
 		)
 		(uuid "619d4286-57a7-4cc9-9930-9996ed1551b6")
+	)
+	(label "Common"
+		(at 110.49 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "629f1dcd-36c4-46df-91dc-bd3ffe68b6d8")
 	)
 	(label "SD0"
 		(at 81.28 177.8 0)
@@ -5849,7 +7427,7 @@
 		)
 		(uuid "702529b1-dbea-45e3-a0d3-15f1ab5ecdd4")
 	)
-	(label "SC2"
+	(label "SD2"
 		(at 76.2 212.09 0)
 		(effects
 			(font
@@ -5879,7 +7457,7 @@
 		)
 		(uuid "77209d62-89a1-4588-9860-56eda2553d4c")
 	)
-	(label "SD5"
+	(label "SC5"
 		(at 72.39 269.24 0)
 		(effects
 			(font
@@ -5939,7 +7517,7 @@
 		)
 		(uuid "8a4e83bb-e745-411e-94fa-f3f5baebb607")
 	)
-	(label "SC5"
+	(label "SD5"
 		(at 72.39 266.7 0)
 		(effects
 			(font
@@ -5960,7 +7538,7 @@
 		(uuid "8e2ec496-8a42-4017-9e9c-8949439a0731")
 	)
 	(label "GPIO5"
-		(at 27.94 41.91 0)
+		(at 29.21 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6000,7 +7578,7 @@
 		(uuid "ab927b8f-d6c7-4955-a8b6-435e565b1f76")
 	)
 	(label "GPIO23"
-		(at 81.28 44.45 0)
+		(at 74.93 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6009,15 +7587,15 @@
 		)
 		(uuid "ac05dc98-6db1-4100-9afd-de902ae31173")
 	)
-	(label "LED-"
-		(at 119.38 45.72 0)
+	(label "NO"
+		(at 113.03 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b28ed6ae-4b89-4cb7-b917-123c0389393f")
+		(uuid "b02f5ff6-fb93-44f4-b955-2cfd715af33d")
 	)
 	(label "SC0"
 		(at 81.28 180.34 0)
@@ -6029,7 +7607,7 @@
 		)
 		(uuid "bb3cd6d7-d1d8-4d17-a8f0-17f3fe9e89b9")
 	)
-	(label "SD4"
+	(label "SC4"
 		(at 74.93 251.46 0)
 		(effects
 			(font
@@ -6059,7 +7637,7 @@
 		)
 		(uuid "c086b722-e521-43aa-beed-b0ade5ad23d3")
 	)
-	(label "SC4"
+	(label "SD4"
 		(at 73.66 248.92 0)
 		(effects
 			(font
@@ -6069,7 +7647,7 @@
 		)
 		(uuid "c19b14ed-e76d-49e8-861a-678e347a8c7e")
 	)
-	(label "GPIO23"
+	(label "GPIO15"
 		(at 353.06 111.76 0)
 		(effects
 			(font
@@ -6080,7 +7658,7 @@
 		(uuid "c1ccc0f3-d434-472f-9bb7-60080a93ef5d")
 	)
 	(label "SDA"
-		(at 27.94 44.45 0)
+		(at 30.48 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6099,7 +7677,7 @@
 		)
 		(uuid "c542711f-28dd-49fb-ba7d-3d2547aea71f")
 	)
-	(label "GPIO21"
+	(label "GPIO22"
 		(at 349.25 49.53 0)
 		(effects
 			(font
@@ -6140,7 +7718,7 @@
 		(uuid "d1bd5a15-c4e2-42d2-af0a-631febceed16")
 	)
 	(label "SCL"
-		(at 27.94 46.99 0)
+		(at 29.21 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6149,7 +7727,7 @@
 		)
 		(uuid "e4aec931-7bf4-4fd7-92ab-ca504969bcc6")
 	)
-	(label "GPIO15"
+	(label "GPIO23"
 		(at 353.06 114.3 0)
 		(effects
 			(font
@@ -6530,7 +8108,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 232.41 35.56 0)
+		(at 226.06 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6541,7 +8119,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b8dd892-4ac5-415b-9ffe-f4eeba4a35d7")
 		(property "Reference" "#PWR049"
-			(at 232.41 39.37 0)
+			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6552,7 +8130,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 232.41 30.48 0)
+			(at 226.06 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6562,7 +8140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 35.56 0)
+			(at 226.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 35.56 0)
+			(at 226.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +8162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 232.41 35.56 0)
+			(at 226.06 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6763,7 +8341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 267.97 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -6773,8 +8351,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10407100-2fa2-4845-965f-63c674a2a681")
-		(property "Reference" "#PWR02"
+		(uuid "10a4c30c-6c4d-4ab8-a23f-59c05c050e57")
+		(property "Reference" "#PWR05"
 			(at 267.97 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6785,7 +8363,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 267.97 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,7 +8395,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 267.97 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6829,12 +8407,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e394d666-4541-4baa-8b87-4767c6ef6721")
+			(uuid "1a0a9a7e-d3d3-4ca1-9e07-23d8954ec43d")
 		)
 		(instances
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7245,7 +8823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181b7eb4-8098-451d-b5a7-b0946f10f1c2")
-		(property "Reference" "MainPoweRails1"
+		(property "Reference" "Battery1"
 			(at 125.73 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7309,7 +8887,7 @@
 		(instances
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "MainPoweRails1")
+					(reference "Battery1")
 					(unit 1)
 				)
 			)
@@ -7629,7 +9207,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 111.76 27.94 0)
+		(at 105.41 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7637,9 +9215,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "28d2aa15-eb24-4561-9a45-1ef32bec505f")
 		(property "Reference" "#PWR044"
-			(at 111.76 31.75 0)
+			(at 105.41 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7650,18 +9229,17 @@
 			)
 		)
 		(property "Value" "VBattery"
-			(at 107.188 23.622 0)
+			(at 105.41 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 27.94 0)
+			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +9250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 27.94 0)
+			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +9261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 111.76 27.94 0)
+			(at 105.41 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,6 +9682,7 @@
 		)
 	)
 	(symbol
+		(lib_name "EEUFK1V102S_5")
 		(lib_id "6x12 electrolytic capacitor:EEUFK1V102S")
 		(at 340.36 88.9 0)
 		(unit 1)
@@ -8115,7 +9694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3833974e-063f-4da5-b945-137ac022d808")
-		(property "Reference" "C6"
+		(property "Reference" "Ce1"
 			(at 341.0566 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,6 +9706,7 @@
 		)
 		(property "Value" "EEUFK1V102S"
 			(at 341.0566 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8135,7 +9715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5x12 electrolytic capacitor:CAPPRD750W80D1600H1500"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 340.36 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8326,16 +9906,94 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "c77ef104-03bc-4104-9726-03bf6bc3ee69")
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "901d7b97-1407-4c0d-8c9e-89ab328a1628")
 		)
 		(instances
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "C6")
+					(reference "Ce1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 313.69 31.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5e397d-480a-4a81-a1a2-c9b7d07a7922")
+		(property "Reference" "#PWR09"
+			(at 313.69 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 313.69 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 313.69 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5610a26-b823-494c-a685-32a7e42fba17")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8418,6 +10076,84 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "ENCODER4I2C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 270.51 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419f291a-6024-47d6-b06e-a9d1e017572a")
+		(property "Reference" "#PWR046"
+			(at 270.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 270.51 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 270.51 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b2c6bbb-7320-42f0-9021-b0ede7cac150")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8636,6 +10372,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 20.32 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a445322-30ec-4a6b-be0e-2c5493632154")
+		(property "Reference" "D1"
+			(at 20.32 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 20.32 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_5KPW_P12.70mm_Horizontal"
+			(at 20.32 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 20.32 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 20.32 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 20.32 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed3af971-8137-4eda-86f9-4ccb3cb4d4e4")
+		)
+		(pin "1"
+			(uuid "fd6dd681-3a1d-4c4e-81f6-c1666421b1c1")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 320.04 135.89 0)
 		(unit 1)
@@ -8796,6 +10634,7 @@
 		)
 	)
 	(symbol
+		(lib_name "EEUFK1V102S_1")
 		(lib_id "6x12 electrolytic capacitor:EEUFK1V102S")
 		(at 240.03 35.56 0)
 		(unit 1)
@@ -8805,7 +10644,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f529ee4-8f4b-42ed-b768-025a7fd12ead")
 		(property "Reference" "C2"
 			(at 240.7266 27.94 0)
@@ -8818,7 +10656,8 @@
 			)
 		)
 		(property "Value" "EEUFK1V102S"
-			(at 240.7266 30.48 0)
+			(at 240.284 30.734 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8827,7 +10666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5x12 electrolytic capacitor:CAPPRD750W80D1600H1500"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9018,10 +10857,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "d2fa5c1d-2ec6-490a-a866-8e62e23fbfe0")
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "ad680322-c0bd-4c72-aa68-a7086cb0e1d7")
 		)
 		(instances
@@ -9034,6 +10873,7 @@
 		)
 	)
 	(symbol
+		(lib_name "EEUFK1V102S_4")
 		(lib_id "6x12 electrolytic capacitor:EEUFK1V102S")
 		(at 393.7 86.36 0)
 		(unit 1)
@@ -9057,6 +10897,7 @@
 		)
 		(property "Value" "EEUFK1V102S"
 			(at 394.3966 81.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9065,7 +10906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5x12 electrolytic capacitor:CAPPRD750W80D1600H1500"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 393.7 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9256,10 +11097,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "64456c3d-53d2-4750-813d-575be47c7aa7")
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "83b6eefa-a755-4cbf-bbc4-10cab9c5b02b")
 		)
 		(instances
@@ -9272,8 +11113,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 119.38 36.83 0)
+		(lib_id "power:+3.3V")
+		(at 320.04 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9281,9 +11122,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "59e918ad-b95b-4954-a52a-641f35b637d5")
-		(property "Reference" "#PWR061"
-			(at 119.38 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "5a1eb2a6-b59d-4237-9105-cdf7efb49840")
+		(property "Reference" "#PWR021"
+			(at 320.04 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,19 +11135,18 @@
 				)
 			)
 		)
-		(property "Value" "VBattery"
-			(at 114.808 32.512 0)
+		(property "Value" "+3.3V"
+			(at 320.04 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 36.83 0)
+			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9316,7 +11157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 36.83 0)
+			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,8 +11167,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 119.38 36.83 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9338,12 +11179,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e93d8b04-609a-4e40-9c57-a4e001cf3f48")
+			(uuid "e49c9a32-6d3e-4081-8e5e-9d6c2d68b1a5")
 		)
 		(instances
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR061")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9500,6 +11341,84 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 367.03 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63b34db1-2b04-4e5f-a494-f8edd7272a39")
+		(property "Reference" "#PWR013"
+			(at 367.03 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 367.03 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 367.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9608c0a4-5fa4-4003-b586-01ae7f9b5b5e")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9817,6 +11736,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 370.84 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72ba8fd8-75d6-4089-9a08-070d11ea636f")
+		(property "Reference" "#PWR017"
+			(at 370.84 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 370.84 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 370.84 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af570c94-9fd3-4037-9eaa-09e2afe29407")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 69.85 0)
 		(unit 1)
@@ -9895,8 +11892,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 22.86 67.31 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 123.19 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9905,30 +11902,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "772ffc3f-822b-47c5-8324-43253f47d6b5")
-		(property "Reference" "#PWR027"
-			(at 22.86 71.12 0)
-			(hide yes)
+		(uuid "74a5d701-5fe4-4932-aba8-b4e745b256d4")
+		(property "Reference" "Switch1"
+			(at 125.73 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 22.86 62.23 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 125.73 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 22.86 67.31 0)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 123.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9939,7 +11937,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 67.31 0)
+			(at 123.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "868f3801-7ed1-4a13-a05a-7c4568615562")
+		)
+		(pin "1"
+			(uuid "c3fff3c2-ff2f-45dc-bd50-d98133397c86")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "Switch1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 13.97 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772ffc3f-822b-47c5-8324-43253f47d6b5")
+		(property "Reference" "#PWR027"
+			(at 13.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 13.97 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9950,7 +12029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 22.86 67.31 0)
+			(at 13.97 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10123,84 +12202,6 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 95.25 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b87f9c0-202b-4a20-8236-ee1920712543")
-		(property "Reference" "#PWR046"
-			(at 95.25 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 95.25 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 95.25 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e65a362-1cc9-4b2e-9f5e-6d004c701a31")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10638,84 +12639,6 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 270.51 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b09152a-f88a-4df0-825a-36ea24146e56")
-		(property "Reference" "#PWR05"
-			(at 270.51 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 270.51 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 270.51 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59fbae41-5454-45d5-ba54-6ca49a986298")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11235,6 +13158,7 @@
 		)
 		(property "Value" "EEUFK1V102S"
 			(at 337.2466 20.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11243,7 +13167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5x12 electrolytic capacitor:CAPPRD750W80D1600H1500"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 336.55 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11434,10 +13358,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "223cc501-1619-4ba5-87bf-e8f46b904391")
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "63b065bb-e699-4691-be3f-fd29c2393ff4")
 		)
 		(instances
@@ -11522,166 +13446,6 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 320.04 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96d2d6d0-941f-4e30-ac03-88b08bb23d14")
-		(property "Reference" "#PWR09"
-			(at 320.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 320.04 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 320.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7ce3001-382e-44ca-b112-10784cdcf740")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 133.35 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9938ff91-3f90-446e-bf2f-9e976b9aa51f")
-		(property "Reference" "J10"
-			(at 135.89 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 135.89 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 133.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bd76d5c-2878-433b-9030-d47b69b99c61")
-		)
-		(pin "2"
-			(uuid "b9fbfd04-45cf-4fe9-9006-a55f672424a4")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12207,84 +13971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 370.84 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1fec2a0-c133-49ef-921a-3c8aff4c7305")
-		(property "Reference" "#PWR017"
-			(at 370.84 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 370.84 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 370.84 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dfc073f1-0945-48ee-8445-fbd8a31b1ad7")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 93.98 194.31 0)
 		(unit 1)
@@ -12533,6 +14219,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 104.14 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaeac2c6-069e-4890-8d37-dd9e598f0943")
+		(property "Reference" "#PWR061"
+			(at 104.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 104.14 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3dd7f5ba-6144-4fd5-b5aa-0b2ecced4136")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 370.84 133.35 0)
 		(unit 1)
@@ -12605,88 +14369,6 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 133.35 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af80db16-1a94-4fed-9a30-d34c128f0d5d")
-		(property "Reference" "J9"
-			(at 135.89 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 135.89 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 133.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 133.35 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3564d5cb-8b6b-47e2-8554-60e3656e20d3")
-		)
-		(pin "2"
-			(uuid "eb6a41a1-8404-4c0e-95a8-cddc8c4cd8cc")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13106,6 +14788,7 @@
 		)
 	)
 	(symbol
+		(lib_name "EEUFK1V102S_3")
 		(lib_id "6x12 electrolytic capacitor:EEUFK1V102S")
 		(at 389.89 24.13 0)
 		(unit 1)
@@ -13129,6 +14812,7 @@
 		)
 		(property "Value" "EEUFK1V102S"
 			(at 390.5866 19.05 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13137,7 +14821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5x12 electrolytic capacitor:CAPPRD750W80D1600H1500"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 389.89 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13328,10 +15012,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "1"
 			(uuid "c26950bb-b2e0-46a2-a14b-e95f26bf1f1b")
 		)
-		(pin "N"
+		(pin "2"
 			(uuid "df76beb2-2b82-4f12-b6f7-9e528f6b6077")
 		)
 		(instances
@@ -13416,6 +15100,84 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 95.25 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c421ec6c-cf14-4a14-9852-1cc4c73b2ddb")
+		(property "Reference" "#PWR02"
+			(at 95.25 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 95.25 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf7417cc-7b52-4a38-8e40-8b9d3d29e23a")
+		)
+		(instances
+			(project "6-axis pcb"
+				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13688,6 +15450,7 @@
 		)
 		(property "Value" "EEUFK1V102S"
 			(at 290.2566 86.36 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13696,7 +15459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "5x12 electrolytic capacitor:CAPPRD750W80D1600H1500"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P2.50mm"
 			(at 289.56 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13887,10 +15650,10 @@
 				(justify bottom)
 			)
 		)
-		(pin "P"
+		(pin "2"
 			(uuid "e0052805-63ee-4a5f-9bb3-ec5589565f0c")
 		)
-		(pin "N"
+		(pin "1"
 			(uuid "5c072cb0-79b0-4bc8-9b8c-73a521bdf746")
 		)
 		(instances
@@ -14213,84 +15976,6 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 313.69 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4bd2d0b-c547-4906-b4d1-a7f08169a578")
-		(property "Reference" "#PWR013"
-			(at 313.69 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 313.69 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 313.69 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3814b626-dae4-4e51-bfb0-bf4acab9ddfe")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15108,84 +16793,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 367.03 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec8449fe-d9b1-4130-82da-ec9698a612b2")
-		(property "Reference" "#PWR021"
-			(at 367.03 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 367.03 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 367.03 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcf54c2c-8fdb-4e83-a466-a8fe45434623")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Driver_Motor:Pololu_Breakout_A4988")
 		(at 313.69 54.61 0)
 		(unit 1)
@@ -15305,84 +16912,6 @@
 			(project "6-axis pcb"
 				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
 					(reference "Wrist1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 116.84 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f29a3fca-880b-48f5-beb2-4ffe7eeabc12")
-		(property "Reference" "#PWR062"
-			(at 116.84 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 116.84 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 116.84 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d118adc4-a989-475a-8f66-1fd5a5c94b68")
-		)
-		(instances
-			(project "6-axis pcb"
-				(path "/3c2076e8-cf62-42ed-aa5d-ccf22b93841e"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
