@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "5 V Buck Converter") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/5 V Buck Converter") (options "") (descr ""))
+	(lib (name "EEUFK1V102S") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/EEUFK1V102S") (options "") (descr ""))
+	(lib (name "ESP 32 devkit c6-c1") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/ESP 32 devkit c6-c1") (options "") (descr ""))
+	(lib (name "I2C Breakout") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/I2C Breakout") (options "") (descr ""))
+	(lib (name "KF301-2P") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/KF301-2P") (options "") (descr ""))
+)
