@@ -5,4 +5,5 @@
 	(lib (name "ESP 32 devkit c6-c1") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/ESP 32 devkit c6-c1") (options "") (descr ""))
 	(lib (name "I2C Breakout") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/I2C Breakout") (options "") (descr ""))
 	(lib (name "KF301-2P") (type "KiCad") (uri "C:/Users/Pi_is/OneDrive/Documentos/GitHub/6-axis PCB/Libraries/KF301-2P") (options "") (descr ""))
+	(lib (name "5V buck converter") (type "KiCad") (uri "${KIPRJMOD}/5V buck converter.pretty") (options "") (descr ""))
 )
